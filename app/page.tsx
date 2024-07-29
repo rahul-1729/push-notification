@@ -1,8 +1,8 @@
 import Button from '@/components/Button';
-import '../styles/styles.module.css'
 export default function Home() {
    
   return (
+    <div className='supercontainer'>
     <div className="container">
     <div className="nav"><h1>Hola!</h1></div>
     
@@ -30,6 +30,7 @@ export default function Home() {
  
     <Button  />
     </div>
+</div>
 </div>
  
   );
