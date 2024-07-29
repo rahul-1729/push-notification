@@ -2,32 +2,138 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #2C2143 0%, #000000 100%);
+
+  color: #d4d4d4;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.container {
+  text-align: center;
+  height: 100vh;
 }
+
+
+ 
+
+ 
+
+.head {
+  margin: 20px 0 10px;
+  font-weight: 700;
+  font-size: 29px;
+  height: 32px;
+  max-width: 210px ;
+  color: #FFFFFF;
+  margin-inline:auto;
+
+}
+
+.para {
+  margin: 19px ;
+  font-weight: 400;
+  font-size: 19px;
+  height: 32px;
+  color: hsla(0,0%,100%,0.6);
+  max-width:325px ;
+  margin-inline: auto;
+ 
+
+}
+
+.butt {
+margin-top: 52px;
+max-width: 327px;
+height:  42px;
+padding: 8px ;
+border-radius: 8px;
+border: 2px;
+opacity: 0px;
+cursor: pointer;
+background: #1D103A;
+border: 2px solid #6434CE;
+box-shadow: 0px 1px 2px 0px #0000001F;
+margin-inline: auto;
+font-weight: bolder;
+}
+
+.error{
+ 
+margin-top: 103px;
+opacity: 0px;
+
+}
+.nav{
+margin-top: 32px;
+opacity: 0px;
+font-weight: bolder;
+
+}
+
+.icon-container {
+  margin-top: 81px;
+  height: 392px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+
+.borderCircle1, .borderCircle2, .borderCircle0 ,.circle {
+  position: absolute;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.borderCircle1 {
+  width: 324px; 
+  height: 324px;
+  border: 2px solid #49318266; 
+}
+
+.borderCircle2 {
+  width: 260px;  
+  height: 260px;
+  border: 2px solid #644D9A;  
+}
+
+.borderCircle0 {
+  width: 392px; 
+  height: 392px;
+   
+  
+  
+}
+
+
+.circle {
+  width: 196px;  
+  height: 196px;
+  background: #2F1A6199;
+  border: 2px solid #2F1A6199; 
+}
+
+.icon {
+  width: 180px;
+  height: 204.24px;
+  background-image: url('/Vector.svg');  
+  background-size: cover;
+  background-position: center;
+}
+
+.butt:hover{
+  background-color: #6434CE;
+  border: 2px solid #9b7be7de
+}
+
+
