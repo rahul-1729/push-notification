@@ -1,5 +1,6 @@
 import Button from '@/components/Button';
 export default function Home() {
+   
   return (
     <div className="container">
     <div className="nav"><h1>Hola!</h1></div>
@@ -8,7 +9,7 @@ export default function Home() {
         <div className="borderCircle0">
           <div className="borderCircle1">
               <div className="borderCircle2">
-                <div className="circle">  
+                <div className="circle" id ="Circle">  
                     <div className="icon"></div>
                 </div>
             </div>
@@ -23,10 +24,10 @@ export default function Home() {
           <div className="para"> 
           <p>Lorem ipsum dolor sit amet.</p></div>
         </div>
-   <div className="butt">
-        <Button />
-   </div>
-    
+        
+ 
+ 
+    <Button  />
     </div>
 </div>
  
