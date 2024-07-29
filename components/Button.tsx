@@ -1,4 +1,5 @@
 "use client"
+import './button.css'
 
 export default function Button() {
     const handleClick = async () => {
