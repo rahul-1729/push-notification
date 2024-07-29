@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+ 
 body {
   display: flex;
   justify-content: center;
@@ -22,10 +24,6 @@ body {
 
 }
 
-
- 
-
- 
 
 .head {
   margin: 20px 0 10px;
@@ -136,6 +134,4 @@ button:hover{
   background-color: #6434CE;
   border: 2px solid #9b7be7de
 }
- 
-
 

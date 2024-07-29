@@ -1,5 +1,5 @@
 import Button from '@/components/Button';
-import '../styles/globals.css'
+import '../styles/styles.module.css'
 export default function Home() {
    
   return (
