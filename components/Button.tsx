@@ -1,5 +1,5 @@
 "use client"
-import './button.css'
+import styles from './button.module.css'
 
 export default function Button() {
     const handleClick = async () => {
@@ -16,7 +16,7 @@ export default function Button() {
     }
 
     return (
-        <button   onClick={handleClick}>
+        <button className={styles.button}  onClick={handleClick}>
             Send Notification
         </button>
     );

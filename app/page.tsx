@@ -1,5 +1,19 @@
-import Button from '@/components/Button';
+'use client'
+// import Button from '@/components/Button';
 export default function Home() {
+
+  const handleClick = async () => {
+    const permission = await Notification.requestPermission();
+
+    if (permission === 'granted') {
+        new Notification('Button: Hey you, stop clicking me 😂', {
+            body: 'You have a push notification',
+            icon: '/logo.jpg',
+        });
+    } else {
+        console.error('Notification permission denied');
+    }
+}
    
   return (
     <div className='supercontainer'>
@@ -28,7 +42,11 @@ export default function Home() {
         
  
  
-    <Button  />
+    {/* <Button  /> */}
+
+    <button  onClick={handleClick}>
+            Send Notification
+        </button>
     </div>
 </div>
 </div>
