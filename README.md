@@ -6,7 +6,7 @@
 
 
 # ClientSide Components
-ClientSide Components include Button because it can't be rendered on server side because in use onClick events.
+ClientSide Components include Button because it can't be rendered on server side because it uses onClick events.
 
 
 # ServerSide Components
