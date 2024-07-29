@@ -42,10 +42,10 @@ export default function ServerSide (){
       <div className="h-[10rem] w-[100vw] flex justify-center items-center /mb-[13rem]">
         <div
           className="1p-3 1border-white 1border-2 rounded-full loadinglogoaniminit "
-          style={{ "--timing": "0.3s" }}>
+           >
           <div
             className="1p-3 1border-white 1border-2 rounded-full loadinglogoaniminit "
-            style={{ "--timing": "1.5s" }}>
+             >
             
             <div className="p-[4rem] rounded-full top-[34.5%] -translate-y-[50%] left-[50%] -translate-x-[50%] bg-[#29174f] w-[10rem] h-[10rem] z-[10] absolute loadinglogomainimganiminit  border-4 border-[#d4c1ff]" >
               <img 
